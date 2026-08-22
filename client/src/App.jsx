@@ -4,7 +4,7 @@ import Admin from './pages/Admin';
 import { ArrowRight, Search, ShoppingBag, Plus, Minus, X, Star, Leaf, Menu as MenuIcon, UserRound, Clock, ShieldCheck, Headphones, Truck } from 'lucide-react';
 import axios from 'axios';
 
-const API='https://nomnow-backend.onrender.com/api';
+const API='http://localhost:5000/api';
 const CartContext=createContext(null);
 const useCart=()=>useContext(CartContext);
 
